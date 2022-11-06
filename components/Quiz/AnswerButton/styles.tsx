@@ -11,4 +11,5 @@ export const StyledButton = styled.button`
   font-family: inherit;
   background-color: inherit;
   font-size: ${rem("24px")};
+  background-color: ${(props) => props.color};
 `;
